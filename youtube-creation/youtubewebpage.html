@@ -5,20 +5,52 @@
         <style>
             .thumbnail{
                 width:300px;
+                display:block;
             }
             .searchbox{
-
+                display:block;
             }
             .video-title{
                 width:300px;
             }
+            .video-preview{
+                width:300px;
+                display:inline-block;
+                vertical-align:top;
+                margin-right:15px;
+            }
+            .channel-picture{
+                display:inline-block;
+            }
+            .video-info{
+                display:inline-block;
+            }
+            
         </style>
     </head>
     <body>
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
         <input class="searchbox" type="text" placeholder="search">
-        <p class="video-title">talking tech and ai with google CEO sundhar pichai!</p>
-        <p>marques brownlee</p>
-        <p>3.4M views &#183; 6 months ago </p>
+        <div class="video-preview">
+            <div">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </div>
+            <div>
+                <div class="channel-picture">
+                    <img src="thumbnails/channel-1.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">talking tech and ai with google CEO sundhar pichai!</p>
+        <p class="video-author">marques brownlee</p>
+        <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+    </div>
+    <img scr="thumbnails/channel-1.jpeg">
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <p class="video-title">Try Not To Laugh Challenge #9</p>
+        <p class="video-author">markipilar</p>
+        <p class="video-stats">19M views &#183; 4 years ago</p>
+    </div>
     </body>
 </html>
